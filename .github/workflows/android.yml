@@ -33,6 +33,9 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
 
+    - name: Debug Gradle Cache
+      run: ls -la ~/.gradle/caches
+
     
     
     
